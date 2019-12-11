@@ -11,4 +11,5 @@ class TitleValidator < ActiveModel::Validator
     #   record.errors[:title] << "We're only publishing post which contain Won't Believe, Secret, Top 5, or Guess."
     # end
   end
+  attr_accessor :title
 end
